@@ -14,7 +14,7 @@
   },
   "references": [
     {
-      "path": "../../../blueprint-forms/src"
+      "path": "../../../../../../../../../apps/studio-client/apps/main/blueprint-forms/src"
     }
   ]
 }
