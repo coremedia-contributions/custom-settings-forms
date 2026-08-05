@@ -1,10 +1,9 @@
-import DocumentForm from "@coremedia/studio-client.main.editor-components/sdk/premular/DocumentForm";
 import PropertyFieldGroup from "@coremedia/studio-client.main.editor-components/sdk/premular/PropertyFieldGroup";
 import Config from "@jangaroo/runtime/Config";
 import ConfigUtils from "@jangaroo/runtime/ConfigUtils";
 import CSFServiceImpl from "./CSFServiceImpl";
 
-interface CustomSettingsFormConfig extends Config<DocumentForm>, Partial<Pick<CustomSettingsForm,
+interface CustomSettingsFormConfig extends Config<PropertyFieldGroup>, Partial<Pick<CustomSettingsForm,
   "pattern"
 >> {
 }
